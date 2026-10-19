@@ -1,0 +1,36 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "message": "Free delivery on orders above ₹499",
+      "type": "offer",
+      "link": "/offers/free-delivery",
+      "active": true,
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "message": "Flat 20% off on all sweets this weekend!",
+      "type": "sale",
+      "link": "/offers/weekend-sale",
+      "active": true,
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "message": "Same-day delivery available in Hyderabad",
+      "type": "info",
+      "link": "/delivery-info",
+      "active": true,
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "message": "Special gift boxes now available",
+      "type": "product",
+      "link": "/category/gift-boxes",
+      "active": true,
+      "priority": 4
+    }
+  ]
+}

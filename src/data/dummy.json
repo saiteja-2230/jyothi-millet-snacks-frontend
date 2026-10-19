@@ -1,0 +1,1290 @@
+
+
+{
+  "notifications": [
+    {
+      "id": 1,
+      "message": "Free delivery on orders above ₹499",
+      "type": "offer",
+      "link": "/offers/free-delivery",
+      "active": true,
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "message": "Flat 20% off on all sweets this weekend!",
+      "type": "sale",
+      "link": "/offers/weekend-sale",
+      "active": true,
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "message": "Same-day delivery available in Hyderabad",
+      "type": "info",
+      "link": "/delivery-info",
+      "active": true,
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "message": "Special gift boxes now available",
+      "type": "product",
+      "link": "/category/gift-boxes",
+      "active": true,
+      "priority": 4
+    }
+  ],
+
+   "products": [
+    {
+      "id": 1,
+      "name": "Kaju Katli",
+      "description": "Premium cashew sweet with rich taste",
+      "ingredients": "Cashew, Sugar, Ghee",
+      "base_price": 800,
+      "discount_price": 699,
+      "category": "Sweets",
+      "image": "./products/kaju_katli.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gulab Jamun",
+      "description": "Soft milk-solid balls soaked in sugar syrup",
+      "ingredients": "Khoya, Sugar, Cardamom",
+      "base_price": 300,
+      "discount_price": 249,
+      "category": "Sweets",
+      "image": "./products/gulab_jamun.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rasgulla",
+      "description": "Spongy cottage cheese balls in syrup",
+      "ingredients": "Milk, Sugar",
+      "base_price": 280,
+      "discount_price": 230,
+      "category": "Sweets",
+      "image": "./products/rasagulla"
+    },
+    {
+      "id": 4,
+      "name": "Motichoor Laddu",
+      "description": "Tiny gram flour pearls shaped into laddus",
+      "ingredients": "Besan, Sugar, Ghee",
+      "base_price": 350,
+      "discount_price": 299,
+      "category": "Sweets",
+      "image": "./products/motichoor.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mysore Pak",
+      "description": "Traditional ghee-rich sweet from South India",
+      "ingredients": "Besan, Sugar, Ghee",
+      "base_price": 400,
+      "discount_price": 349,
+      "category": "Sweets",
+      "image": "./products/mysorepak.webp"
+    },
+
+    {
+      "id": 6,
+      "name": "Mixture Namkeen",
+      "description": "Spicy mix of fried lentils and nuts",
+      "ingredients": "Peanuts, Sev, Spices",
+      "base_price": 200,
+      "discount_price": 169,
+      "category": "Namkeens",
+      "image": "./products/mixture.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Aloo Bhujia",
+      "description": "Crispy potato-based snack",
+      "ingredients": "Potato, Gram Flour, Spices",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Namkeens",
+      "image": "./products/alubhujia.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Masala Peanuts",
+      "description": "Crunchy peanuts coated with spices",
+      "ingredients": "Peanuts, Gram Flour, Spices",
+      "base_price": 150,
+      "discount_price": 129,
+      "category": "Namkeens",
+      "image": "./products/masalapeenuts.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sev",
+      "description": "Fine crispy gram flour noodles",
+      "ingredients": "Besan, Oil, Salt",
+      "base_price": 140,
+      "discount_price": 119,
+      "category": "Namkeens",
+      "image": "./products/sev.webp"
+    },
+
+    {
+      "id": 10,
+      "name": "Mango Pickle",
+      "description": "Spicy traditional mango pickle",
+      "ingredients": "Raw Mango, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 259,
+      "category": "Pickels",
+      "image": "./products/mango.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Lemon Pickle",
+      "description": "Tangy and spicy lemon pickle",
+      "ingredients": "Lemon, Salt, Spices",
+      "base_price": 250,
+      "discount_price": 219,
+      "category": "Pickels",
+      "image": "./products/lemon.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Garlic Pickle",
+      "description": "Strong flavored garlic pickle",
+      "ingredients": "Garlic, Oil, Spices",
+      "base_price": 320,
+      "discount_price": 279,
+      "category": "Pickels",
+      "image": "./products/garlic.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Amla Pickle",
+      "description": "Healthy gooseberry pickle",
+      "ingredients": "Amla, Oil, Spices",
+      "base_price": 280,
+      "discount_price": 239,
+      "category": "Pickels",
+      "image": "./products/amla.webp"
+    },
+
+    {
+      "id": 14,
+      "name": "Sambar Powder",
+      "description": "Authentic South Indian spice mix",
+      "ingredients": "Lentils, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "image": "./products/sambar.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Rasam Powder",
+      "description": "Tangy rasam spice mix",
+      "ingredients": "Spices, Tamarind Powder",
+      "base_price": 200,
+      "discount_price": 169,
+      "category": "Powders",
+      "image": "./products/rasam.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Curry Powder",
+      "description": "All-purpose Indian curry mix",
+      "ingredients": "Spices",
+      "base_price": 210,
+      "discount_price": 179,
+      "category": "Powders",
+      "image": "./products/curry.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Chilli Powder",
+      "description": "Spicy red chilli powder",
+      "ingredients": "Dried Chillies",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Powders",
+      "image": "./products/chilli.webp"
+    },
+
+    {
+      "id": 18,
+      "name": "Plain Papad",
+      "description": "Crispy urad dal papad",
+      "ingredients": "Urad Dal, Salt",
+      "base_price": 150,
+      "discount_price": 129,
+      "category": "Pappads",
+      "image": "./products/plainpapad.webp"
+    },
+    {
+      "id": 19,
+      "name": "Masala Papad",
+      "description": "Spicy flavored papad",
+      "ingredients": "Urad Dal, Spices",
+      "base_price": 170,
+      "discount_price": 149,
+      "category": "Pappads",
+      "image": "./products/plainpapad.webp"
+    },
+    {
+      "id": 20,
+      "name": "Rice Papad",
+      "description": "Light crispy rice papad",
+      "ingredients": "Rice Flour, Salt",
+      "base_price": 140,
+      "discount_price": 119,
+      "category": "Pappads",
+      "image": "./products/plainpapad.webp"
+    },
+
+    {
+      "id": 21,
+      "name": "Dry Fruit Laddu",
+      "description": "Healthy laddus with dry fruits",
+      "ingredients": "Almonds, Cashew, Dates",
+      "base_price": 600,
+      "discount_price": 549,
+      "category": "Sweets",
+      "image": "./products/dryfruitsladdu.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Badam Halwa",
+      "description": "Rich almond dessert",
+      "ingredients": "Almonds, Sugar, Ghee",
+      "base_price": 700,
+      "discount_price": 649,
+      "category": "Sweets",
+      "image": "./products/baddamhalwa.webp"
+    },
+    {
+      "id": 23,
+      "name": "Corn Mixture",
+      "description": "Crunchy corn snack",
+      "ingredients": "Corn, Spices",
+      "base_price": 160,
+      "discount_price": 139,
+      "category": "Namkeens",
+      "image": "./products/cornmixture.webp"
+    },
+    {
+      "id": 24,
+      "name": "Ginger Pickle",
+      "description": "Spicy ginger pickle",
+      "ingredients": "Ginger, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 269,
+      "category": "Pickels",
+      "image": "./products/ginger.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Idli Podi",
+      "description": "Spicy powder for idli/dosa",
+      "ingredients": "Lentils, Chillies, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "image": "./products/idli.jpg"
+    },
+    {
+      "id":26,
+      "name":"Clay Pot Roasted dry fruis",
+      "description":"",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":27,
+      "name":"Dry Fruit Musli",
+      "description":"",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":28,
+      "name":"Healthy Seeds Dasha Dinusulu",
+      "description":"",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":29,
+      "name":"Protein Beans (3 Types)",
+      "description":"",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":30,
+      "name":"Protein Mixture",
+      "description":"",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":31,
+      "name":"Roasted Quinoa Flakes Mixture",
+      "description":"",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    }
+  ],
+
+  
+  "bestsellers":[
+    {
+      "id": 1,
+      "name": "Kaju Katli",
+      "description": "Premium cashew sweet with rich taste",
+      "ingredients": "Cashew, Sugar, Ghee",
+      "base_price": 800,
+      "discount_price": 699,
+      "category": "Sweets",
+      "bestseller":true,
+      "image": "./products/kaju_katli.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ginger Pickle",
+      "description": "Spicy ginger pickle",
+      "ingredients": "Ginger, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 269,
+      "category": "Pickels",
+      "bestseller":true,
+
+      "image": "./products/ginger.jpg"
+    },
+    {
+       "id": 3,
+      "name": "Idli Podi",
+      "description": "Spicy powder for idli/dosa",
+      "ingredients": "Lentils, Chillies, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "bestseller":true,
+
+      "image": "./products/idli.jpg"
+    },
+    {
+       "id": 4,
+      "name": "Aloo Bhujia",
+      "description": "Crispy potato-based snack",
+      "ingredients": "Potato, Gram Flour, Spices",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Namkeens",
+      "bestseller":true,
+
+      "image": "./products/alubhujia.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mango Pickle",
+      "description": "Spicy traditional mango pickle",
+      "ingredients": "Raw Mango, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 259,
+      "category": "Pickels",
+      "bestseller":true,
+      "image": "./products/mango.jpg"
+    }
+  ],
+
+  "faqData":[
+    {
+    "id": 1,
+    "question": "How can I place an order?",
+    "answer":"You can place an order by browsing our products, adding items to your cart, and proceeding to checkout with your delivery details and payment method."
+  },
+  {
+    "id": 2,
+    "question": "How do I know if my order is confirmed?",
+    "answer":
+      "Once your order is successfully placed, you will receive an order confirmation message or email with your order details."
+  },
+  {
+    "id": 3,
+    "question": "Can I cancel my order after placing it?",
+    "answer":
+      "Yes, you can cancel your order before it is packed or shipped. Once the order is dispatched, cancellation may not be possible."
+  },
+  {
+    "id": 4,
+    "question": "What should I do if my order is delayed?",
+    "answer":
+      "If your order is delayed beyond the expected delivery time, please contact our support team with your order ID for assistance."
+  },
+  {
+    "id": 5,
+    "question": "Why is my order taking longer than expected?",
+    "answer":
+      "Delivery delays can happen due to high order volume, weather conditions, courier issues, or address verification problems."
+  },
+  {
+    "id": 6,
+    "question": "What if I receive a damaged product?",
+    "answer":
+      "If you receive a damaged product, please contact us within 24 to 48 hours with clear photos or videos of the product and packaging."
+  },
+  {
+    "id": 7,
+    "question": "Can I get a refund for a damaged item?",
+    "answer":
+      "Yes, after verification of the damaged product, we will initiate a refund or replacement based on your preference and eligibility."
+  },
+  {
+    "id": 8,
+    "question": "How long does it take to process a refund?",
+    "answer":
+      "Refunds are usually processed within 5 to 7 business days after the returned or damaged item is approved."
+  },
+  {
+    "id": 9,
+    "question": "Will I get a full refund if I cancel my order?",
+    "answer":
+      "Yes, if your order is cancelled before shipping, you will generally receive a full refund to your original payment method."
+  },
+  {
+    "id": 10,
+    "question": "What if I entered the wrong delivery address?",
+    "answer":
+      "Please contact us immediately if you entered the wrong address. Address changes are only possible before the order is shipped."
+  },
+  {
+    "id": 11,
+    "question": "Can I return a product after delivery?",
+    "answer":
+      "Yes, eligible products can be returned within the return window, provided they are unused and in their original packaging."
+  },
+  {
+    "id": 12,
+    "question": "How will I know the status of my refund?",
+    "answer":
+      "Once your refund is initiated, you will receive a confirmation message or email with the refund status and expected timeline."
+  },
+  {
+    "id": 13,
+    "question": "What if I receive the wrong product?",
+    "answer":
+      "If you receive the wrong item, please report it to us within 24 to 48 hours so we can arrange a replacement or refund."
+  },
+  {
+    "id": 14,
+    "question": "Do you offer replacement for defective products?",
+    "answer":
+      "Yes, defective or damaged products may be eligible for replacement depending on stock availability and verification."
+  },
+  {
+    "id": 15,
+    "question": "Who should I contact for order or refund issues?",
+    "answer":
+      "You can contact our customer support team through WhatsApp, email, or the contact form available on our website."
+  }
+  ],
+  "productss": [
+    {
+      "id": 1,
+      "name": "Kaju Katli",
+      "description": "Premium cashew sweet with rich taste",
+      "ingredients": "Cashew, Sugar, Ghee",
+      "base_price": 800,
+      "discount_price": 699,
+      "category": "Sweets",
+      "image": "../products/kaju_katli.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gulab Jamun",
+      "description": "Soft milk-solid balls soaked in sugar syrup",
+      "ingredients": "Khoya, Sugar, Cardamom",
+      "base_price": 300,
+      "discount_price": 249,
+      "category": "Sweets",
+      "image": "../products/gulab_jamun.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rasgulla",
+      "description": "Spongy cottage cheese balls in syrup",
+      "ingredients": "Milk, Sugar",
+      "base_price": 280,
+      "discount_price": 230,
+      "category": "Sweets",
+      "image": "../products/rasagulla"
+    },
+    {
+      "id": 4,
+      "name": "Motichoor Laddu",
+      "description": "Tiny gram flour pearls shaped into laddus",
+      "ingredients": "Besan, Sugar, Ghee",
+      "base_price": 350,
+      "discount_price": 299,
+      "category": "Sweets",
+      "image": "../products/motichoor.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mysore Pak",
+      "description": "Traditional ghee-rich sweet from South India",
+      "ingredients": "Besan, Sugar, Ghee",
+      "base_price": 400,
+      "discount_price": 349,
+      "category": "Sweets",
+      "image": "../products/mysorepak.webp"
+    },
+
+    {
+      "id": 6,
+      "name": "Mixture Namkeen",
+      "description": "Spicy mix of fried lentils and nuts",
+      "ingredients": "Peanuts, Sev, Spices",
+      "base_price": 200,
+      "discount_price": 169,
+      "category": "Namkeens",
+      "image": "../products/mixture.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Aloo Bhujia",
+      "description": "Crispy potato-based snack",
+      "ingredients": "Potato, Gram Flour, Spices",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Namkeens",
+      "image": "../products/alubhujia.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Masala Peanuts",
+      "description": "Crunchy peanuts coated with spices",
+      "ingredients": "Peanuts, Gram Flour, Spices",
+      "base_price": 150,
+      "discount_price": 129,
+      "category": "Namkeens",
+      "image": "../products/masalapeenuts.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sev",
+      "description": "Fine crispy gram flour noodles",
+      "ingredients": "Besan, Oil, Salt",
+      "base_price": 140,
+      "discount_price": 119,
+      "category": "Namkeens",
+      "image": "../products/sev.webp"
+    },
+
+    {
+      "id": 10,
+      "name": "Mango Pickle",
+      "description": "Spicy traditional mango pickle",
+      "ingredients": "Raw Mango, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 259,
+      "category": "Pickels",
+      "image": "../products/mango.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Lemon Pickle",
+      "description": "Tangy and spicy lemon pickle",
+      "ingredients": "Lemon, Salt, Spices",
+      "base_price": 250,
+      "discount_price": 219,
+      "category": "Pickels",
+      "image": "../products/lemon.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Garlic Pickle",
+      "description": "Strong flavored garlic pickle",
+      "ingredients": "Garlic, Oil, Spices",
+      "base_price": 320,
+      "discount_price": 279,
+      "category": "Pickels",
+      "image": "../products/garlic.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Amla Pickle",
+      "description": "Healthy gooseberry pickle",
+      "ingredients": "Amla, Oil, Spices",
+      "base_price": 280,
+      "discount_price": 239,
+      "category": "Pickels",
+      "image": "../products/amla.webp"
+    },
+
+    {
+      "id": 14,
+      "name": "Sambar Powder",
+      "description": "Authentic South Indian spice mix",
+      "ingredients": "Lentils, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "image": "../products/sambar.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Rasam Powder",
+      "description": "Tangy rasam spice mix",
+      "ingredients": "Spices, Tamarind Powder",
+      "base_price": 200,
+      "discount_price": 169,
+      "category": "Powders",
+      "image": "../products/rasam.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Curry Powder",
+      "description": "All-purpose Indian curry mix",
+      "ingredients": "Spices",
+      "base_price": 210,
+      "discount_price": 179,
+      "category": "Powders",
+      "image": "../products/curry.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Chilli Powder",
+      "description": "Spicy red chilli powder",
+      "ingredients": "Dried Chillies",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Powders",
+      "image": "../products/chilli.webp"
+    },
+
+    {
+      "id": 18,
+      "name": "Plain Papad",
+      "description": "Crispy urad dal papad",
+      "ingredients": "Urad Dal, Salt",
+      "base_price": 150,
+      "discount_price": 129,
+      "category": "Pappads",
+      "image": "../products/plainpapad.webp"
+    },
+    {
+      "id": 19,
+      "name": "Masala Papad",
+      "description": "Spicy flavored papad",
+      "ingredients": "Urad Dal, Spices",
+      "base_price": 170,
+      "discount_price": 149,
+      "category": "Pappads",
+      "image": "../products/plainpapad.webp"
+    },
+    {
+      "id": 20,
+      "name": "Rice Papad",
+      "description": "Light crispy rice papad",
+      "ingredients": "Rice Flour, Salt",
+      "base_price": 140,
+      "discount_price": 119,
+      "category": "Pappads",
+      "image": "../products/plainpapad.webp"
+    },
+
+    {
+      "id": 21,
+      "name": "Dry Fruit Laddu",
+      "description": "Healthy laddus with dry fruits",
+      "ingredients": "Almonds, Cashew, Dates",
+      "base_price": 600,
+      "discount_price": 549,
+      "category": "Sweets",
+      "image": "../products/dryfruitsladdu.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Badam Halwa",
+      "description": "Rich almond dessert",
+      "ingredients": "Almonds, Sugar, Ghee",
+      "base_price": 700,
+      "discount_price": 649,
+      "category": "Sweets",
+      "image": "../products/baddamhalwa.webp"
+    },
+    {
+      "id": 23,
+      "name": "Corn Mixture",
+      "description": "Crunchy corn snack",
+      "ingredients": "Corn, Spices",
+      "base_price": 160,
+      "discount_price": 139,
+      "category": "Namkeens",
+      "image": "../products/cornmixture.webp"
+    },
+    {
+      "id": 24,
+      "name": "Ginger Pickle",
+      "description": "Spicy ginger pickle",
+      "ingredients": "Ginger, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 269,
+      "category": "Pickels",
+      "image": "../products/ginger.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Idli Podi",
+      "description": "Spicy powder for idli/dosa",
+      "ingredients": "Lentils, Chillies, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "image": "../products/idli.jpg"
+    },
+    {
+      "id":26,
+      "name":"Pudinacurry leaves chips",
+      "description":"Fresh Mint & Curry Leaves in Every Crunch.",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":27,
+      "name":"Ragi Mixture",
+      "description":"Ragi Goodness in Every Munch.",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":28,
+      "name":"Jonna Muruku (Jowar)",
+      "description":"Ancient Grain, Perfect Crunch",
+      "ingredients":"",
+      "base_price":240,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/mixture.jpg"
+    },
+    {
+      "id":29,
+      "name":"Wheat Flaxseeds Chekodi",
+      "description":"Nutritious Twist to Classic Chekodi",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":189,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":30,
+      "name":"Soya Ring",
+      "description":"Healthy Rings, Happy Snacking",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+     {
+      "id":31,
+      "name":"Sprouted Boondi",
+      "description":"Snack Light, Feel Right",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+        {
+      "id":32,
+      "name":"Perugu Pusa",
+      "description":"Curd magic in a crispy form",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+      {
+      "id":33,
+      "name":"Sago Tomato Stick",
+      "description":"A Crunchy Stick of Tangy Joy",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+     {
+      "id":34,
+      "name":"Soya Tomato Stick",
+      "description":"A Crunchy Stick with a Flavor Kick",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+     {
+      "id":35,
+      "name":"Soya Spicy Stick",
+      "description":"Feel the Heat, Love the Crunch",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+     {
+      "id":36,
+      "name":"Corn Tomato Kurkure",
+      "description":"Kurkure Crunch with Tomato Punch",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":37,
+      "name":"Corn Spicy Kurkure",
+      "description":"Spice That Pops in Every Bite",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":38,
+      "name":"Yellow Banana Chips",
+      "description":"Classic Crunch, Timeless Taste",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":39,
+      "name":"Spicy Banana Chips",
+      "description":"Hot, Crispy, Irresistible",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":40,
+      "name":"Kakarakaya Chips /karela",
+      "description":"Bitter Never Tasted This Better",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":41,
+      "name":"Jackfruit Chips",
+      "description":"Exotic Fruit, Perfect Crunch",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":42,
+      "name":"Millet Pasta Stick (Spicy)",
+      "description":"Millet Crunch with Masala Punch",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":43,
+      "name":"Yam Kurkure",
+      "description":"Naturally Crunchy, Irresistibly Tasty",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":44,
+      "name":"Karam Gavvalu",
+      "description":"Crunchy, Spicy & Irresistible!",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":45,
+      "name":"Sago Masala Chekkalu",
+      "description":"Authentic Taste in Every Crunch",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":46,
+      "name":"Ragi Chekkalu",
+      "description":"Wholesome ragi, crispy delight",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":47,
+      "name":"Beetroot Chekkalu",
+      "description":"Crunch into the power of beetroot",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":48,
+      "name":"Palak Chekkalu",
+      "description":"Crispy Snack with Spinach Twist",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":49,
+      "name":"Sago Plain Chekkalu",
+      "description":"Crispy Joy Anytime",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":50,
+      "name":"Butter Muruku",
+      "description":"Melt-in-Mouth Crunch",
+      "ingredients":"",
+      "base_price":230,
+      "discount_price":199,
+      "category":"Namkeens",
+      "image":"../products/alubhujia.jpg"
+    },
+    {
+      "id":51,
+      "name":"Karela Powder (Bitter Gourd)",
+      "description":"Bitter Today, Better Tomorrow",
+      "ingredients":"",
+      "base_price":330,
+      "discount_price":299,
+      "category":"Powders",
+      "image":"../products/chilli.webp"
+    },
+    {
+      "id":52,
+      "name":"Plain Drumstick Leaves Powder",
+      "description":"Pure Green Nutrition in Every Spoon",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Powders",
+      "image":"../products/chilli.webp"
+    },
+    {
+      "id":53,
+      "name":"Drumstick Leaves Spicy Powder",
+      "description":"Health with a Spicy Kick",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Powders",
+      "image":"../products/chilli.webp"
+    },
+    {
+      "id":54,
+      "name":"Curry Leaves Powder",
+      "description":"Nature’s Hair & Health Secret",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Powders",
+      "image":"../products/curry.jpg"
+    },
+    {
+      "id":55,
+      "name":"Garlic Powder",
+      "description":"Pure Taste, Powerful Aroma",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Powders",
+      "image":"../products/curry.jpg"
+    },
+    {
+      "id":56,
+      "name":"Tomato Pickle",
+      "description":"Rich Taste, Real Flavor!",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pickels",
+      "image":"../products/amla.webp"
+    },
+    {
+      "id":57,
+      "name":"Red Chilli Pickle",
+      "description":"Spice Lovers’ Favorite",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pickels",
+      "image":"../products/amla.webp"
+    },
+    {
+      "id":58,
+      "name":"Gongura Pickle",
+      "description":"The True Taste of Andhra Kitchens",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pickels",
+      "image":"../products/amla.webp"
+    },
+    {
+      "id":58,
+      "name":"Tamarind Pickle",
+      "description":"Turn every meal into a flavor explosion",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pickels",
+      "image":"../products/amla.webp"
+    },
+    {
+      "id":59,
+      "name":"Tamarind Rice Paste (Pulihora Paste)",
+      "description":"Instant Pulihora, authentic Andhra taste",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pickels",
+      "image":"../products/amla.webp"
+    },
+    {
+      "id":60,
+      "name":"uradal papper pappads",
+      "description":"Papad that turns meals into feasts",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":61,
+      "name":"uradal red chilli pappads",
+      "description":"Bold urad, fiery chilli, ultimate crisp",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":62,
+      "name":"moongdal pappads",
+      "description":"Bold urad, fiery chilli, ultimate crisp",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":63,
+      "name":"sago plain pappads",
+      "description":"Simple ingredients, perfect crunch",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":64,
+      "name":"sago green chilli pappads",
+      "description":"Light crunch with green chilli kick",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":65,
+      "name":"sago red chilli pappads",
+      "description":"Light crunch with green chilli kick",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":66,
+      "name":"rice red chilli pappads",
+      "description":"Crispy companion for every dish",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":67,
+      "name":"rice green chilli pappads",
+      "description":"Crunchy, light, and naturally spicy",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":68,
+      "name":"ragi pappads",
+      "description":"Wholesome ragi, light and crunchy delight",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":69,
+      "name":"minapappu vadiyalu/uradal badi",
+      "description":"Wholesome ragi, light and crunchy delight",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":70,
+      "name":"gummadi vadiyalu/pumpkin vadiyalu",
+      "description":"From grandma’s kitchen to your plate",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Pappads",
+      "image":"../products/plainpapad.webp"
+    },
+    {
+      "id":71,
+      "name":"Clay Pot Roasted dry fruis",
+      "description":"Ancient Roast, Rich Taste",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":72,
+      "name":"Dry Fruit Musli",
+      "description":"Energy in Every Spoon",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":73,
+      "name":"Healthy Seeds Dasha Dinusulu",
+      "description":"Nature’s Power in Every Spoon",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":74,
+      "name":"Protein Beans (3 Types)",
+      "description":"Healthy Beans, Strong Nutrition",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":75,
+      "name":"Protein Mixture",
+      "description":"The Crunch that Builds Strength",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    },
+    {
+      "id":76,
+      "name":"Roasted Quinoa Flakes Mixture",
+      "description":"Roasted Right, Tastes Light",
+      "ingredients":"",
+      "base_price":300,
+      "discount_price":249,
+      "category":"Rosted",
+      "image":"../products/cornmixture.webp"
+    }
+
+
+
+  ]
+}

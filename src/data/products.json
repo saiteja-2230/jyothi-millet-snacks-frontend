@@ -1,0 +1,259 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kaju Katli",
+      "description": "Premium cashew sweet with rich taste",
+      "ingredients": "Cashew, Sugar, Ghee",
+      "base_price": 800,
+      "discount_price": 699,
+      "category": "Sweets",
+      "image": "./products/kaju_katli.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gulab Jamun",
+      "description": "Soft milk-solid balls soaked in sugar syrup",
+      "ingredients": "Khoya, Sugar, Cardamom",
+      "base_price": 300,
+      "discount_price": 249,
+      "category": "Sweets",
+      "image": "https://source.unsplash.com/400x400/?gulab-jamun"
+    },
+    {
+      "id": 3,
+      "name": "Rasgulla",
+      "description": "Spongy cottage cheese balls in syrup",
+      "ingredients": "Milk, Sugar",
+      "base_price": 280,
+      "discount_price": 230,
+      "category": "Sweets",
+      "image": "https://source.unsplash.com/400x400/?rasgulla"
+    },
+    {
+      "id": 4,
+      "name": "Motichoor Laddu",
+      "description": "Tiny gram flour pearls shaped into laddus",
+      "ingredients": "Besan, Sugar, Ghee",
+      "base_price": 350,
+      "discount_price": 299,
+      "category": "Sweets",
+      "image": "https://source.unsplash.com/400x400/?laddu"
+    },
+    {
+      "id": 5,
+      "name": "Mysore Pak",
+      "description": "Traditional ghee-rich sweet from South India",
+      "ingredients": "Besan, Sugar, Ghee",
+      "base_price": 400,
+      "discount_price": 349,
+      "category": "Sweets",
+      "image": "https://source.unsplash.com/400x400/?mysore-pak"
+    },
+
+    {
+      "id": 6,
+      "name": "Mixture Namkeen",
+      "description": "Spicy mix of fried lentils and nuts",
+      "ingredients": "Peanuts, Sev, Spices",
+      "base_price": 200,
+      "discount_price": 169,
+      "category": "Namkeens",
+      "image": "https://source.unsplash.com/400x400/?namkeen"
+    },
+    {
+      "id": 7,
+      "name": "Aloo Bhujia",
+      "description": "Crispy potato-based snack",
+      "ingredients": "Potato, Gram Flour, Spices",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Namkeens",
+      "image": "https://source.unsplash.com/400x400/?bhujia"
+    },
+    {
+      "id": 8,
+      "name": "Masala Peanuts",
+      "description": "Crunchy peanuts coated with spices",
+      "ingredients": "Peanuts, Gram Flour, Spices",
+      "base_price": 150,
+      "discount_price": 129,
+      "category": "Namkeens",
+      "image": "https://source.unsplash.com/400x400/?peanuts-snack"
+    },
+    {
+      "id": 9,
+      "name": "Sev",
+      "description": "Fine crispy gram flour noodles",
+      "ingredients": "Besan, Oil, Salt",
+      "base_price": 140,
+      "discount_price": 119,
+      "category": "Namkeens",
+      "image": "https://source.unsplash.com/400x400/?sev-snack"
+    },
+
+    {
+      "id": 10,
+      "name": "Mango Pickle",
+      "description": "Spicy traditional mango pickle",
+      "ingredients": "Raw Mango, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 259,
+      "category": "Pickels",
+      "image": "https://source.unsplash.com/400x400/?mango-pickle"
+    },
+    {
+      "id": 11,
+      "name": "Lemon Pickle",
+      "description": "Tangy and spicy lemon pickle",
+      "ingredients": "Lemon, Salt, Spices",
+      "base_price": 250,
+      "discount_price": 219,
+      "category": "Pickels",
+      "image": "https://source.unsplash.com/400x400/?lemon-pickle"
+    },
+    {
+      "id": 12,
+      "name": "Garlic Pickle",
+      "description": "Strong flavored garlic pickle",
+      "ingredients": "Garlic, Oil, Spices",
+      "base_price": 320,
+      "discount_price": 279,
+      "category": "Pickels",
+      "image": "https://source.unsplash.com/400x400/?garlic-pickle"
+    },
+    {
+      "id": 13,
+      "name": "Amla Pickle",
+      "description": "Healthy gooseberry pickle",
+      "ingredients": "Amla, Oil, Spices",
+      "base_price": 280,
+      "discount_price": 239,
+      "category": "Pickels",
+      "image": "https://source.unsplash.com/400x400/?amla-pickle"
+    },
+
+    {
+      "id": 14,
+      "name": "Sambar Powder",
+      "description": "Authentic South Indian spice mix",
+      "ingredients": "Lentils, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "image": "https://source.unsplash.com/400x400/?sambar-powder"
+    },
+    {
+      "id": 15,
+      "name": "Rasam Powder",
+      "description": "Tangy rasam spice mix",
+      "ingredients": "Spices, Tamarind Powder",
+      "base_price": 200,
+      "discount_price": 169,
+      "category": "Powders",
+      "image": "https://source.unsplash.com/400x400/?rasam"
+    },
+    {
+      "id": 16,
+      "name": "Curry Powder",
+      "description": "All-purpose Indian curry mix",
+      "ingredients": "Spices",
+      "base_price": 210,
+      "discount_price": 179,
+      "category": "Powders",
+      "image": "https://source.unsplash.com/400x400/?curry-powder"
+    },
+    {
+      "id": 17,
+      "name": "Chilli Powder",
+      "description": "Spicy red chilli powder",
+      "ingredients": "Dried Chillies",
+      "base_price": 180,
+      "discount_price": 149,
+      "category": "Powders",
+      "image": "https://source.unsplash.com/400x400/?chilli-powder"
+    },
+
+    {
+      "id": 18,
+      "name": "Plain Papad",
+      "description": "Crispy urad dal papad",
+      "ingredients": "Urad Dal, Salt",
+      "base_price": 150,
+      "discount_price": 129,
+      "category": "Pappads",
+      "image": "https://source.unsplash.com/400x400/?papad"
+    },
+    {
+      "id": 19,
+      "name": "Masala Papad",
+      "description": "Spicy flavored papad",
+      "ingredients": "Urad Dal, Spices",
+      "base_price": 170,
+      "discount_price": 149,
+      "category": "Pappads",
+      "image": "https://source.unsplash.com/400x400/?papad-masala"
+    },
+    {
+      "id": 20,
+      "name": "Rice Papad",
+      "description": "Light crispy rice papad",
+      "ingredients": "Rice Flour, Salt",
+      "base_price": 140,
+      "discount_price": 119,
+      "category": "Pappads",
+      "image": "https://source.unsplash.com/400x400/?rice-papad"
+    },
+
+    {
+      "id": 21,
+      "name": "Dry Fruit Laddu",
+      "description": "Healthy laddus with dry fruits",
+      "ingredients": "Almonds, Cashew, Dates",
+      "base_price": 600,
+      "discount_price": 549,
+      "category": "Sweets",
+      "image": "https://source.unsplash.com/400x400/?dry-fruit-laddu"
+    },
+    {
+      "id": 22,
+      "name": "Badam Halwa",
+      "description": "Rich almond dessert",
+      "ingredients": "Almonds, Sugar, Ghee",
+      "base_price": 700,
+      "discount_price": 649,
+      "category": "Sweets",
+      "image": "https://source.unsplash.com/400x400/?badam-halwa"
+    },
+    {
+      "id": 23,
+      "name": "Corn Mixture",
+      "description": "Crunchy corn snack",
+      "ingredients": "Corn, Spices",
+      "base_price": 160,
+      "discount_price": 139,
+      "category": "Namkeens",
+      "image": "https://source.unsplash.com/400x400/?corn-snack"
+    },
+    {
+      "id": 24,
+      "name": "Ginger Pickle",
+      "description": "Spicy ginger pickle",
+      "ingredients": "Ginger, Oil, Spices",
+      "base_price": 300,
+      "discount_price": 269,
+      "category": "Pickels",
+      "image": "https://images.unsplash.com/photo-1604909052743-94e838986d24"
+    },
+    {
+      "id": 25,
+      "name": "Idli Podi",
+      "description": "Spicy powder for idli/dosa",
+      "ingredients": "Lentils, Chillies, Spices",
+      "base_price": 220,
+      "discount_price": 189,
+      "category": "Powders",
+      "image": "https://source.unsplash.com/400x400/?idli-podi"
+    }
+  ]
+}
